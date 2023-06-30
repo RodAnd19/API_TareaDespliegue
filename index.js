@@ -9,6 +9,7 @@ const people = [
     {id: 3, name: 'Fabiola', age: 20, informaticEngineer: false}
 ]
 
+// GET
 app.get('/', (req, res) => {
     res.send('API para tarea del despliegue de API');
 });
@@ -19,7 +20,8 @@ app.get('/api/people', (req, res) => {
 
 app.get('/api/people:id', (req, res) => {
     const specificPeople = peole.find(c => c.id === parseInt(req.params.id));
-    if (!specificPeople) return res.status(404).send('Esta persona no se ha encontrado :c'); 
+    if (!specificPeople) return res.status(404).send('Esta persona no se ha encontrado :c');
+    else res.send(student);
 });
 
 

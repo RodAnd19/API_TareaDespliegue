@@ -1,0 +1,22 @@
+{
+  "name": "nodejsapi",
+  "version": "1.0.0",
+  "description": "API para la tarea de despliegue de API :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodAnd19/API_TareaDespliegue.git"
+  },
+  "author": "RodAnd19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodAnd19/API_TareaDespliegue/issues"
+  },
+  "homepage": "https://github.com/RodAnd19/API_TareaDespliegue#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
